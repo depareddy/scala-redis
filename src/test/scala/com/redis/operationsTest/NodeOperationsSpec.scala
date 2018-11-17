@@ -1,12 +1,13 @@
-import org.specs._
+package com.redis.operationsTest;
+/*import org.specs2._
 import com.redis._
 
-import org.specs.mock.Mockito
+import org.specs2.mock.Mockito
 import org.mockito.Mock._
 import org.mockito.Mockito._
-import org.mockito.Mockito.doNothing
+import org.mockito.Mockito.doNothing*/
 
-object NodeOperationsSpec extends Specification with Mockito {
+/*object NodeOperationsSpec extends Specification with Mockito {
 
   "Redis Client Node Operations" should {
     var client: RedisTestClient = null
@@ -119,4 +120,4 @@ object NodeOperationsSpec extends Specification with Mockito {
       connection.write("BGREWRITEAOF\r\n") was called
     }
   }
-}
+}*/

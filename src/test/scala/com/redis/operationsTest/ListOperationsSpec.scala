@@ -1,12 +1,13 @@
-import org.specs._
+package com.redis.operationsTest;
+/*import org.specs2._
 import com.redis._
 
-import org.specs.mock.Mockito
+import org.specs2.mock.Mockito
 import org.mockito.Mock._
 import org.mockito.Mockito._
-import org.mockito.Mockito.doNothing
+import org.mockito.Mockito.doNothing*/
 
-object ListOperationsSpec extends Specification with Mockito {
+/*object ListOperationsSpec extends Specification with Mockito {
 
   "Redis Client List Operations" should {
     var client: RedisTestClient = null
@@ -84,4 +85,4 @@ object ListOperationsSpec extends Specification with Mockito {
       connection.write("RPOPLPUSH a b\r\n") was called
     }
   }
-}
+}*/

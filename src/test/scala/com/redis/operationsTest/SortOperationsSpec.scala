@@ -1,11 +1,12 @@
-import org.specs._
+package com.redis.operationsTest;
+/*import org.specs2._
 import com.redis._
 
-import org.specs.mock.Mockito
+import org.specs2.mock.Mockito
 import org.mockito.Mock._
-import org.mockito.Mockito._
+import org.mockito.Mockito._*/
 
-object SortOperationsSpec extends Specification with Mockito {
+/*object SortOperationsSpec extends Specification with Mockito {
   
   "Redis Client Sort Operations" should {
     
@@ -31,4 +32,4 @@ object SortOperationsSpec extends Specification with Mockito {
       connection.write("SORT set\r\n") was called
     }
   }
-}
+}*/

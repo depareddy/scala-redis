@@ -37,6 +37,7 @@ trait SocketOperations {
   // Connects the socket, and sets the input and output streams.
   def connect: Boolean = {
     try {
+      println("in connect")
       socket = new Socket(host, port)
       out = getSocket.getOutputStream
       in = new BufferedReader(new InputStreamReader(getSocket.getInputStream));

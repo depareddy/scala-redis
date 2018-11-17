@@ -21,7 +21,9 @@ trait Operations{
   // sets the key with the specified value.
   def setKey(key: String, value: String): Boolean = {
     val connection = getConnection(key)
-    connection.write("SET "+key+" "+value.length+"\r\n"+value+"\r\n")
+    print("SET "+key+" "+value.length+"\r\n"+value+"\r\n")
+    // connection.write("SET "+key+" "+value.length+"\r\n"+value+"\r\n")
+     connection.write("SET "+key+" "+value+"\r\n")
     connection.readBoolean
   }
   
