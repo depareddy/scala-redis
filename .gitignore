@@ -1,7 +1,30 @@
+# Eclipse
+.classpath
+.project
+.metadata
+.settings/
+.cache-main
+
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
 .DS_Store
+
+# sbt
 lib_managed
 project/boot
 target
 target/
 target/**/*
 /bin/
+log/
+target
+target/
+*/target
+servers
+servers/
+

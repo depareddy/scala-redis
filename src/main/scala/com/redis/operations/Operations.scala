@@ -4,7 +4,7 @@ import com.redis.Connection
 
 /**
  * Redis operations
- *
+ *APPEND,BITCOUNT,BITFIELD,BITOP,BITPOS,GETBIT,GETRANGE,INCRBYFLOAT,MGET,PSETEX,SETBIT,SETEX,SETNX,SETRANGE,STRLEN
  */
 
 trait Operations{
