@@ -10,8 +10,6 @@
 
 Redis is a key-value database. It is similar to memcached but the dataset is not volatile, and values can be strings, exactly like in memcached, but also lists and sets with atomic operations to push/pop elements.
 
-http://code.google.com/p/redis/
-
 ### Key features of Redis
 
 - Fast in-memory store with asynchronous save to disk.
@@ -20,7 +18,7 @@ http://code.google.com/p/redis/
 
 ## Requirements
 
-- sbt (get it at http://code.google.com/p/simple-build-tool/)
+- sbt (get it at https://www.scala-sbt.org/download.html)
 
 ## Usage
 
