@@ -40,5 +40,5 @@ let's connect and get a key:
     scala> r.get("key")
 
 
-Satya (depa.sathi@gmail.com)
+
 
