@@ -33,14 +33,14 @@ object OperationsSpec extends Specification with Mockito with BeforeAll with Aft
 
   def beforeAll() = {
     // server = RedisServer.newRedisServer();
-    server = new RedisServer(6379); // bind to a random port
-    server.start();
+  //  server = new RedisServer(6379); // bind to a random port
+ //   server.start();
 
   }
 
   def afterAll() = {
-    server.stop();
-    server = null;
+   // server.stop();
+   // server = null;
   }
 
   def before = {
